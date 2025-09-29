@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-css-page-using-flexbox-and-grid-wzH1YjyCtI)
-- Live Site URL: [Add live site URL here](https://fylo-data-storage-front-end-me-git-5f8099-luan-asouzas-projects.vercel.app?_vercel_share=soLKNIlavtmxbuQwbuo80JAlxmrDtjnG)
+- Solution URL: [Go to Solution](https://www.frontendmentor.io/solutions/responsive-css-page-using-flexbox-and-grid-wzH1YjyCtI)
+- Live Site URL: [Go to Live Site](https://fylo-data-storage-front-end-me-git-5f8099-luan-asouzas-projects.vercel.app?_vercel_share=soLKNIlavtmxbuQwbuo80JAlxmrDtjnG)
 
 ### Built with
 
