@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+
+
+body{
+    background-color: hsl(229, 57%, 11%);
+    margin: 0;
+    height: 100vh; /* altura total da tela */
+    display: flex;
+    background-image: url(images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left bottom;
+    background-size: auto 50%;
+    background-attachment: local;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+}
+
+.container{
+    display: flex;
+    gap: 30px;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.fyloContainer{
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 10px 100px 10px 10px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+.fyloIcone{
+    height: 40px;
+    width: 130px;
+    
+}
+
+.icones{
+    display: flex;
+    gap: 15px;;
+
+}
+
+.icones > .icone{
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.areaContainer{
+    background-color: hsl(228, 56%, 26%);
+    height: 150px;
+    width: 500px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.conteudo{
+    color: #ffffff;
+    height: 100px;
+    width: 450px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "usado usado"
+    "progressBar progressBar"
+    "minimo maximo"
+    ;
+}
+
+.BarraProgresso{
+    grid-area: progressBar;
+    width: 100%;
+    height: 20px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.progresso{
+    height: 14px;
+    width: 81%;
+    margin-left: 3px;
+    border-radius: 7px;
+    background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pontoProgresso{
+    height: 12px;
+    width: 12px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin: 2px;
+}
+
+.usadoInfo{
+    grid-area: usado;
+}
+
+.minimoInfo{
+    grid-area: minimo;
+}
+
+.maximoInfo{
+    grid-area: maximo;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.attribution{
+    position: absolute;
+    bottom: 0;
+}
+
+.balao{
+    width: 180px;
+    height: 70px;
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 15px 15px 0px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    bottom: 130px;
+    right: 35px;
+    gap: 10px;
+}
+
+.balao > p{
+    font-size: 12px;
+    color: hsl(229, 7%, 55%);
+    
+}
+
+.balao > p > strong{
+    color: #000000;
+    font-size: 42px;
+}
+
+.triangulo{
+    position: absolute;
+    bottom: 110px;
+    right: 35px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-top: 20px solid #ffffff; /* cor do triângulo */
+}
+
+@media  (min-width: 1440px){
+    body{ background-size: 100% 50%; }
+}
+
+
+@media  (max-width: 875px){
+
+    body{
+        background-image: url(images/bg-mobile.png);
+        background-size: cover;
+    }
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+    .areaContainer{
+        height: 150px;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    
+    .conteudo{
+        width: 90%;
+    }
+
+    .usadoInfo{
+        text-align: center;
+    }
+
+    .balao{
+        border-radius: 15px;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .fyloContainer{
+        width: 100%;
+    }
+
+    .triangulo{
+        display: none;
+    }
+    
+}
+
+@media  (max-width: 280px){ .balao{top: 110%;}}
