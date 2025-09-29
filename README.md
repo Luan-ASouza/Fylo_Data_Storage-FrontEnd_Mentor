@@ -1,44 +1,45 @@
-# Frontend Mentor - Fylo data storage component solution
+# Frontend Mentor - Solução do componente de armazenamento de dados Fylo
 
-This is a solution to the [Fylo data storage component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+Esta é uma solução para o [Fylo data storage component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n).  
+Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de programação construindo projetos realistas.
 
-## Table of contents
+## Tabela de conteúdos
 
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [O desafio](#o-desafio)
+  - [Captura de tela](#captura-de-tela)
   - [Links](#links)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Author](#author)
+  - [Construído com](#construído-com)
+  - [O que aprendi](#o-que-aprendi)
+  - [Autor](#autor)
 
 
-### The challenge
+### O desafio
 
-Users should be able to:
+Os usuários devem ser capazes de:
 
-- View the optimal layout for the site depending on their device's screen size
+- Visualizar o layout ideal do site dependendo do tamanho da tela do dispositivo
 
-### Screenshot
+### Captura de tela
 
 ![](./screenshot.png)
 
 ### Links
 
-- Solution URL: [Go to Solution](https://www.frontendmentor.io/solutions/responsive-css-page-using-flexbox-and-grid-wzH1YjyCtI)
-- Live Site URL: [Go to Live Site](https://fylo-data-storage-front-end-me-git-5f8099-luan-asouzas-projects.vercel.app?_vercel_share=soLKNIlavtmxbuQwbuo80JAlxmrDtjnG)
+- URL da solução: [Ir para a solução](https://www.frontendmentor.io/solutions/responsive-css-page-using-flexbox-and-grid-wzH1YjyCtI)  
+- URL do site ao vivo: [Ir para o site](https://fylo-data-storage-front-end-me-git-5f8099-luan-asouzas-projects.vercel.app?_vercel_share=soLKNIlavtmxbuQwbuo80JAlxmrDtjnG)
 
-### Built with
+### Construído com
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
+- Marcação semântica HTML5  
+- Propriedades personalizadas de CSS  
+- Flexbox  
+- CSS Grid  
+- Fluxo *mobile-first*
 
-### What I learned
+### O que aprendi
 
-"I learned how to create triangles with CSS and got better at working with background images. I also learned how to build progression bars."
+"Aprendi a criar triângulos com CSS e a lidar melhor com imagens de fundo. Também aprendi a construir barras de progresso e a desenvolver melhor a responsividade da página."
 
-## Author
+## Autor
 
 - Frontend Mentor - [@Luan-ASouza](https://www.frontendmentor.io/profile/Luan-ASouza)
